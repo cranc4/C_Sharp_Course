@@ -3,9 +3,7 @@
 
 int Num(int num)
 {
-Console.WriteLine(num);
+Console.WriteLine($"вторая цифра числа: {num}");
     return num / 10 % 10;
-
 }
-
 Console.WriteLine(Num(new Random().Next(100,1000)));
