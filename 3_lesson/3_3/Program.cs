@@ -19,9 +19,7 @@ void Chet(int N)
         Console.Write($"{pere},");
         }
    }
-    
-   
 }
-Console.WriteLine("введите ч");
+Console.WriteLine("введите число");
 int chislo = int.Parse(Console.ReadLine());
 Chet(chislo);
