@@ -1,0 +1,16 @@
+﻿// 1. Напишите программу, которая принимает
+//    на вход число и выдаёт количество цифр в числе.
+
+int NumCount(int n)
+{
+    if(n==0)
+    return(1);
+    int count = 0;
+    while (n>0)
+    {
+        n=n/10;
+        count++;
+    }
+return count;
+}
+System.Console.WriteLine(NumCount(int.Parse(Console.ReadLine())));
