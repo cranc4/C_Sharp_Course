@@ -13,4 +13,4 @@ int NumCount(int n)
     }
 return count;
 }
-System.Console.WriteLine(NumCount(int.Parse(Console.ReadLine())));
+Console.WriteLine(NumCount(int.Parse(Console.ReadLine())));
