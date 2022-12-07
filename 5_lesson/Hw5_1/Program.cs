@@ -30,6 +30,7 @@ void Chet(int[] array)
     Console.WriteLine($"Количество чётных чисел в массиве: {sum}");
 }
 
+Console.WriteLine("Введите количество элементов массива:");
 int[] arr_1 = MassNums(int.Parse(Console.ReadLine()));
 Print(arr_1);
 Chet(arr_1);
