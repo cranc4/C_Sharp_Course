@@ -29,7 +29,8 @@ string Poisk(int[] arr, int num)
     }
     return "No";
 }
-
+Console.WriteLine("Введите количество элементов массива:");
 int[] arr_1 = Mass(int.Parse(Console.ReadLine()));
 Print(arr_1);
+Console.WriteLine("Найти число из массива ");
 Console.WriteLine(Poisk(arr_1, int.Parse(Console.ReadLine())));

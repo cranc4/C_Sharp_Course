@@ -1,5 +1,5 @@
-﻿// 2. Задайте массив. Напишите программу, которая определяет,
-//    присутствует ли заданное число в массиве.
+﻿// Задайте одномерный массив из 123 случайных чисел. Найдите количество 
+// элементов массива, значения которых лежат в отрезке [10,99].
 
 void Print(int[] arr)
 {
@@ -36,4 +36,4 @@ int[] arr_1 = ArrayNums(int.Parse(Console.ReadLine()),
                         int.Parse(Console.ReadLine()),
                         int.Parse(Console.ReadLine()));
 Print(arr_1);
-Console.Write(CountDiap(arr_1));
+Console.WriteLine(CountDiap(arr_1));
